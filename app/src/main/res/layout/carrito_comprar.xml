@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="COMPRAR"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="Dirección del Envío"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="NOMBRES"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/carritonombre"
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_text"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="APELLIDOS"
+            android:textColor="@color/black"
+            android:layout_margin="15dp" />
+
+        <EditText
+            android:id="@+id/carritoapellido"
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_text"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DNI"
+            android:textColor="@color/black"
+            android:layout_margin="15dp" />
+
+        <EditText
+            android:id="@+id/carritodocumento"
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_text"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TELEFONO"
+            android:textColor="@color/black"
+            android:layout_margin="15dp" />
+
+
+        <EditText
+            android:id="@+id/carritotelefono"
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_text"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:inputType="numberSigned"
+            android:padding="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DIRECCIÓN"
+            android:textColor="@color/black"
+            android:layout_margin="15dp" />
+
+        <EditText
+            android:id="@+id/carritodireccion"
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_text"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DIRECCIÓN"
+            android:textColor="@color/black"
+            android:layout_margin="15dp" />
+
+        <EditText
+            android:id="@+id/carritodepartamento"
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_text"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="15dp" />
+
+        <Button
+            android:id="@+id/carritoagregartarjeta"
+            android:layout_width="374dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/border_text"
+            android:padding="20dp"
+            android:text="AGREGAR TARJETA"
+            android:textColor="@color/colorwhite" />
+
+    </LinearLayout>
+
+</ScrollView>
